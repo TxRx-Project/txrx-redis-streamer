@@ -1,4 +1,4 @@
-PROJECT_NAME := txrx-redis
+PROJECT_NAME := txrx-redis-streamer
 
 MAKEFLAGS += --always-make
 
