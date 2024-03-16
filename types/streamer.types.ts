@@ -28,3 +28,18 @@ export type Streamable = StreamProfile & {
      */
     payload: Payload
 };
+
+/**
+ * A proxy symbol for the for {@link StreamProfile}.
+ */
+export const StreamProfile = Symbol('StreamProfile');
+
+/**
+ * A proxy symbol for the for {@link Payload}.
+ */
+export const Payload = Symbol('Payload');
+
+/**
+ * A proxy symbol for the for {@link Streamable}.
+ */
+export const Streamable = Symbol('Streamable');
